@@ -36,7 +36,6 @@ winsor(data, value_col = "value", bounds = c(0.05[lowerbound], 0.95[upperbound])
 ## Arguments for functions: 
 ```r
 # data: A data frame containing the data.
-
 # group_col: The column name to group by (as a string).
 # value_col: The column name containing the values to be winsorized (as a string).
 # bounds: The bounds for winsorizing (default is c(0.05, 0.95)).
