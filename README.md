@@ -10,7 +10,11 @@ You can install the development version from GitHub using the `devtools` package
 install.packages("devtools")
 library(devtools)
 devtools::install_github("yourusername/WinsorByGroupR")
+```{r}
 
+## Functions
+```r
+library(WinsorByGroupR)
 
 #`winsorize_by_group' 
 This function allows you to winsorize your dataset separately per pre-defined group. Hence you winsorize the values of a specified column within each group. 
@@ -27,12 +31,14 @@ winsor(data, value_col = "value", bounds = c(0.05[lowerbound], 0.95[upperbound])
 #`trim' 
 This function allows you to trim your dataset. Hence you trim the values of a specified column. 
 winsor(data, value_col = "value", bounds = c(0.05[lowerbound], 0.95[upperbound]))
+```{r}
 
-# Arguments for functions: 
+## Arguments for functions: 
 data: A data frame containing the data.
 group_col: The column name to group by (as a string).
 value_col: The column name containing the values to be winsorized (as a string).
 bounds: The bounds for winsorizing (default is c(0.05, 0.95)).
 
-# License
+
+## License
 This package is licensed under the MIT License.
