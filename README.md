@@ -9,7 +9,7 @@ You can install the development version from GitHub using the `devtools` package
 ```r
 install.packages("devtools")
 library(devtools)
-devtools::install_github("yourusername/WinsorByGroupR")
+devtools::install_github("TWicker97/WinsorByGroupR")
 ```
 
 ## Functions
