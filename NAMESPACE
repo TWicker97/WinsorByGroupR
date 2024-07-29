@@ -1,0 +1,4 @@
+export(winsorize_by_group)
+export(trim_by_group)
+export(winsor)
+export(trim)
