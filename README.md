@@ -10,7 +10,7 @@ You can install the development version from GitHub using the `devtools` package
 install.packages("devtools")
 library(devtools)
 devtools::install_github("yourusername/WinsorByGroupR")
-```{r}
+```r
 
 ## Functions
 ```r
@@ -31,7 +31,7 @@ winsor(data, value_col = "value", bounds = c(0.05[lowerbound], 0.95[upperbound])
 #`trim' 
 This function allows you to trim your dataset. Hence you trim the values of a specified column. 
 winsor(data, value_col = "value", bounds = c(0.05[lowerbound], 0.95[upperbound]))
-```{r}
+```r
 
 ## Arguments for functions: 
 data: A data frame containing the data.
